@@ -1,0 +1,71 @@
+Tk() - Returns a new Toplevel widget on screen SCREENNAME. A new Tcl interpreter will be created.
+
+Label - Construct a label widget with the parent MASTER.
+
+.grid - Positions a widget in the parent widget in a grid.
+
+Button - Button widget.
+
+state - NORMAL - The button could be clicked by the user
+	DISABLE - The button is not clickable
+	ACTIVE - Mouse is over the button
+
+text =  Allows you to edit a multiline text and format the way it has to be displayed, such as changing its color and font.
+
+padx - 	puts some space between the button widgets and between the closeButton and the 			right border of the root window.
+
+pady -  puts some space between the button widgets and the borders of the frame and the 		borders of the root window.
+
+command - respond to the button click event
+
+fg - Forground (Text) color (color names, and Hex color Codes)
+
+bg - Background Color (color names, and Hex color Codes)
+
+Entry - Constructs an entry widget with the parent MASTER.
+
+borderwidth - increases the width of the entry widget's border.
+
+.get - Return the text.
+
+.insert - Adds text into the object.
+
+columnspan - How many columns widgetoccupies
+
+lambda - a small anonymous function.
+
+.delete - Delete text from FIRST to LAST
+
+.grid_forget - Unmaps the widget.
+
+sticky - This option determines how to distribute any extra space within the cell that is not taken up by the widget at its natural size
+
+anchor - Defines where text is positioned relative to a reference point.
+
+LabelFrame - Acts as a spacer or container for complex window layouts
+
+Radiobutton - Implements a multiple-choice button
+
+IntVar - Constructs an integer variable.
+
+StrVar - Constructs a string variable.
+
+.set - set a value to a variable.
+
+messagebox - module 
+
+.showinfo - Shows an info message (ok (string))
+
+.showwarning - Shows a warning message (ok (string))
+
+.showerror - Shows an error message (ok (string))
+
+.askquestion - Shows a question message (Yes/No) (string)
+
+.askokcancel - Shows Ok/Cancel message (Ok=1, Cancel=0)
+
+.askyesno - Shows Yes/No message (yes=1, no=2)
+
+.destroy - destroys a widget.
+
+.geometry - Sets geometry to NEWGEOMETRY of the form =widthxheight+x+y. Return current value if None is given.
