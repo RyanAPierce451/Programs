@@ -1,0 +1,12 @@
+number_of_cookies = int(input('\nEnter number of cookies:'))
+
+COOKIES = 48
+SUGAR = 1.5
+BUTTER = 1
+FLOUR = 2.75
+
+total_sugar  = (SUGAR * number_of_cookies) / COOKIES
+total_butter = (BUTTER * number_of_cookies) / COOKIES
+total_flour  = (FLOUR * number_of_cookies) / COOKIES
+
+print("You need " + format(total_sugar) + " cups of sugar, " + format(total_butter) + " cups of butter, and " + format(total_flour) + " cups of flour.")
