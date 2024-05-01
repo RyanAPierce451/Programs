@@ -1,0 +1,18 @@
+There are Two Programs inside.  
+
+High_Point_Craps.py (This is a terminal standard python program)  
+
+I'd recommend increasing the terminal font size to 36 as I used unicode dice images to make the program feel more polished and add a visual representation of a dice roll. 
+This would be the program that follows the homework.  
+
+
+High_Point_Craps-Graphics.py (This is a tkinter project I attemted to make based on the homework) 
+
+This was a program in which I wanted to use the tkinter module which I had learned on my free time. 
+It runs properly, however it is a simplified version of the High_Point_Craps.py program. 
+I enjoyed making the program and wanted to showcase tkinter and how much I currently understand about it. 
+I watched 3 hours of a 5 hour video on tkinter. I found it to explain tkinter at a begginer level really well. 
+here's the video if you wish to watch it : https://www.youtube.com/watch?v=YXPyB4XeYLA&ab_channel=freeCodeCamp.org 
+
+
+Please let me know if there are any issues that arise. Thanks have a great one.
